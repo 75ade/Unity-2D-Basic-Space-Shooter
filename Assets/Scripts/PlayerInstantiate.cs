@@ -11,12 +11,13 @@ public class PlayerInstantiate : MonoBehaviour
     void Awake()
     {
         charSelectManager = FindFirstObjectByType<CharSelectManager>();
+        shipIndex = charSelectManager.GetCurrentShipIndex();
+        Instantiate(shipPrefabs[shipIndex]);  
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        shipIndex = charSelectManager.GetCurrentShipIndex();
-        Instantiate(shipPrefabs[shipIndex]);   
+         
     }
 }

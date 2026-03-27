@@ -558,10 +558,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 673213653641980609, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
-      propertyPath: moveSpeed.y
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3491141392349909083, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -605,10 +601,6 @@ PrefabInstance:
     - target: {fileID: 3926439461731646962, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
       propertyPath: m_Name
       value: Backgrounds
-      objectReference: {fileID: 0}
-    - target: {fileID: 5892877269386705505, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
-      propertyPath: moveSpeed.y
-      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -15,18 +15,19 @@ public class PlayerController : MonoBehaviour
     Vector2 minBound;
     Vector2 maxBound;
 
-    Shooter playerShooter;
+    [SerializeField] Shooter playerShooter;
     InputAction fireAction;
-    Animator playerAnimator;
+    // Animator playerAnimator;
+    ChargingAnimationManager chargingAnimationManager;
     AudioManager audioManager;
     ChargeBarManager chargeBarManager;
 
     void Awake()
     {
-        playerShooter = GetComponent<Shooter>();
+        // playerShooter = GetComponent<Shooter>();
         fireAction = InputSystem.actions.FindAction("Fire");
         moveAction = InputSystem.actions.FindAction("Move");
-        playerAnimator = FindFirstObjectByType<Animator>();
+        chargingAnimationManager = FindFirstObjectByType<ChargingAnimationManager>();
         audioManager = FindFirstObjectByType<AudioManager>();
         chargeBarManager = FindFirstObjectByType<ChargeBarManager>();
     }
@@ -75,8 +76,8 @@ public class PlayerController : MonoBehaviour
                 playerShooter.ChargeFire();
                 playerShooter.chargeFiring = false;
                 playerShooter.isCharging = false;
-                playerAnimator.SetBool("isCharging", false);
-                chargeBarManager.StopChargeAnimation();
+                chargingAnimationManager.StopChargingAnimation();
+                chargeBarManager.StopChargeBarAnimation();
             }
         }
         else
@@ -105,8 +106,8 @@ public class PlayerController : MonoBehaviour
     {
         print("Charge attack!");
         playerShooter.isCharging = true;
-        playerAnimator.SetBool("isCharging", true);
-        chargeBarManager.PlayChargeAnimation();
+        chargingAnimationManager.PlayChargingAnimation();
+        chargeBarManager.PlayChargeBarAnimation();
     }
 
     void OnHoldCanceled(InputAction.CallbackContext ctx)

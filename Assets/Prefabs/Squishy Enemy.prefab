@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 120221361935701857, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5421734538833868612, guid: 8f548f9b9610c574cbd218a8abfeda59, type: 3}
+      objectReference: {fileID: -7923335940134429709, guid: c15d81d6f6984544fa7b115bc39cc3ce, type: 3}
     - target: {fileID: 879158653880600027, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: minimumFireRate
       value: 0.05
@@ -27,7 +27,7 @@ PrefabInstance:
     - target: {fileID: 879158653880600027, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: projectilePrefab
       value: 
-      objectReference: {fileID: 7620505444958893612, guid: d8cf4a9220ef27e41b84ea4b5e7db2c5, type: 3}
+      objectReference: {fileID: 7610256474329737854, guid: 496c22272704c3244b5e7e4b56e827f7, type: 3}
     - target: {fileID: 2497864850505899164, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -67,6 +67,18 @@ PrefabInstance:
     - target: {fileID: 2497864850505899164, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3075588937763785532, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.082
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221920648953021620, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221920648953021620, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4387048852492196277, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: health

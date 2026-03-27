@@ -396,8 +396,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInstantiate
   shipPrefabs:
-  - {fileID: 8648954810935734604, guid: 7c90e568abb439b48b632f4b9fd1831c, type: 3}
-  - {fileID: 8718874790466371474, guid: 3e53c29cf5ff0614baab61c2b0ecab26, type: 3}
+  - {fileID: 3633469159062634549, guid: 7bfc2523c52d0134b968a82a5191b647, type: 3}
+  - {fileID: 3633469159062634549, guid: 31a7f456a0cc18e44b81826ec8470624, type: 3}
 --- !u!4 &519208972
 Transform:
   m_ObjectHideFlags: 0
@@ -743,7 +743,7 @@ GameObject:
   - component: {fileID: 851725072}
   - component: {fileID: 851725071}
   m_Layer: 0
-  m_Name: ChargeBar
+  m_Name: ChargeBarManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1089,6 +1089,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281826597}
   m_CullTransparentMesh: 1
+--- !u!1 &1410585404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410585406}
+  - component: {fileID: 1410585405}
+  m_Layer: 0
+  m_Name: PowerUpSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1410585405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410585404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f306b3dcc9fc6ba46b490574d9b7abd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUpSpawner
+  powerUps:
+  - {fileID: 7281669333865399236, guid: eeb97e4c05c764847bf4805e49cb6dcf, type: 3}
+  - {fileID: 3756467016292602812, guid: 62bf16f34eaa3b4409e89937e2ded1b0, type: 3}
+  maximumPowerUpCount: 3
+  powerUpCoolDownDuration: 5
+  powerUpExistDuration: 5
+--- !u!4 &1410585406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410585404}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.09109, y: 4.57905, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503674392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,7 +1193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.22745098, g: 0.6039216, b: 1, a: 0.24705882}
+  m_Color: {r: 0.22745097, g: 0.6039216, b: 1, a: 0.24705882}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1876,6 +1926,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2047303971317689820, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
+      propertyPath: m_SortingOrder
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 3491141392349909083, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1920,6 +1974,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Backgrounds
       objectReference: {fileID: 0}
+    - target: {fileID: 6778149773574075324, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778149773574075324, guid: c54945dd8336df444b30cc57f4ff0d23, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1941,3 +2003,4 @@ SceneRoots:
   - {fileID: 1777021544}
   - {fileID: 51280879}
   - {fileID: 851725074}
+  - {fileID: 1410585406}

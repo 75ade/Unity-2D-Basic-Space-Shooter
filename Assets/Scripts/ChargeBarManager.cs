@@ -19,12 +19,12 @@ public class ChargeBarManager : MonoBehaviour
         animator.runtimeAnimatorController = animatorControllers[charSelectManager.GetCurrentShipIndex()];
     }
 
-    public void PlayChargeAnimation()
+    public void PlayChargeBarAnimation()
     {
         animator.SetBool("isCharging", true);
     }
 
-    public void StopChargeAnimation()
+    public void StopChargeBarAnimation()
     {
         animator.SetBool("isCharging", false);
     }

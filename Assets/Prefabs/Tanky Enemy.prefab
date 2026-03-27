@@ -19,10 +19,14 @@ PrefabInstance:
     - target: {fileID: 120221361935701857, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5396799409872061445, guid: 24385d148d0d9e345a6c9709c196fd60, type: 3}
+      objectReference: {fileID: -2593744281537643136, guid: c2b65c5a34f231c4bb3f6ff1d0f28c07, type: 3}
     - target: {fileID: 879158653880600027, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: minimumFireRate
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 879158653880600027, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
+      propertyPath: projectileSpeed
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 879158653880600027, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: fireRateVariance
@@ -31,7 +35,7 @@ PrefabInstance:
     - target: {fileID: 879158653880600027, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: projectilePrefab
       value: 
-      objectReference: {fileID: 7620505444958893612, guid: 55824c1085fd27444bdabbbc23481968, type: 3}
+      objectReference: {fileID: 7610256474329737854, guid: 496c22272704c3244b5e7e4b56e827f7, type: 3}
     - target: {fileID: 2497864850505899164, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -71,6 +75,18 @@ PrefabInstance:
     - target: {fileID: 2497864850505899164, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3075588937763785532, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.981
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221920648953021620, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3221920648953021620, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4387048852492196277, guid: a92f1fc16d18fe945851a70ca7d4f7f6, type: 3}
       propertyPath: health

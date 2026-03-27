@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134998656967181367, guid: 3e53c29cf5ff0614baab61c2b0ecab26, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.89461
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4134998656967181367, guid: 3e53c29cf5ff0614baab61c2b0ecab26, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.06103
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4134998656967181367, guid: 3e53c29cf5ff0614baab61c2b0ecab26, type: 3}
       propertyPath: m_LocalPosition.z
@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: normalProjectilePrefab
       value: 
       objectReference: {fileID: 5121320168251898168, guid: a901d98e41b49df4d824a7fcf34b43a8, type: 3}
+    - target: {fileID: 7909981855377541515, guid: 3e53c29cf5ff0614baab61c2b0ecab26, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8718874790466371474, guid: 3e53c29cf5ff0614baab61c2b0ecab26, type: 3}
       propertyPath: m_Name
       value: Blue Player

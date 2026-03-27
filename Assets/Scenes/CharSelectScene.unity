@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6876325050352781090, guid: 564299dd6f4dcf441990a254fa173a01, type: 3}
+  m_Sprite: {fileID: -7661879961134327368, guid: 8610d0078900d5240bbc9c2ad219da8b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5937137003502361028, guid: 3e964444f3474794ab5a92e678f6378b, type: 3}
+  m_Sprite: {fileID: -4777179406988369215, guid: 0a0213326c1297b458c3d84d2d91db71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1066,7 +1066,7 @@ GameObject:
   - component: {fileID: 1125240989}
   - component: {fileID: 1125240988}
   m_Layer: 5
-  m_Name: Green Ship Button
+  m_Name: Orange Ship Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
