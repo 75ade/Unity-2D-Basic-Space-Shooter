@@ -1,3 +1,0 @@
-repository "Space Shooter/Space Shooter@18967485305238@cloud"
-  path "/"
-    smartbranch "/main"
