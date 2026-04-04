@@ -1,6 +1,6 @@
 # 🚀 2D Space Shooter Game
 
-Hi there, my name is Khoa and I would like to introduce about a simple 2D Space Shooter game developed using Unity.
+Hi there, I would like to introduce about a simple 2D Space Shooter game developed using Unity.
 This project was developed based on the "Complete C# Unity 2D Game Development (Updated To Unity 6)" course on Udemy, with additional custom features implemented by me.
 
 ## 🎮 Gameplay
@@ -46,7 +46,7 @@ This project was initially developed by following the course:
 
 I also want to say thanks to all creators whose assets were used in this project
 
-### My Contributions
+### 💡My Contributions
 Compared to the original course project, I have implemented:
 - Adjustment to pixel art style
 - Character (ship) selection
