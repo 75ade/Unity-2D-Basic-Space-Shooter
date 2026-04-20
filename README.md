@@ -25,10 +25,10 @@ This project was developed based on the "Complete C# Unity 2D Game Development (
 - Git & Github
 
 ## 🖼️ Screenshots
-<img width="225" height="600" alt="Screenshot 2026-03-27 172655" src="https://github.com/user-attachments/assets/414331b3-3acb-49fe-b38e-d98a9bb47bbc" />
-<img width="225" height="600" alt="Screenshot 2026-03-27 172706" src="https://github.com/user-attachments/assets/45b3961e-23c3-4fc2-b29c-63a8179e2525" />
-<img width="225" height="600" alt="Screenshot 2026-03-27 172915" src="https://github.com/user-attachments/assets/79cc19fe-4925-4943-bcf0-fd74ffb888bd" />
-<img width="225" height="600" alt="Screenshot 2026-03-27 172934" src="https://github.com/user-attachments/assets/a7f54f00-d5fb-42cc-8db7-52a5ff00844e" />
+<img width="400" height="775" alt="Screenshot 2026-03-27 172655" src="https://github.com/user-attachments/assets/414331b3-3acb-49fe-b38e-d98a9bb47bbc" />
+<img width="400" height="775" alt="Screenshot 2026-03-27 172706" src="https://github.com/user-attachments/assets/45b3961e-23c3-4fc2-b29c-63a8179e2525" />
+<img width="400" height="775" alt="Screenshot 2026-03-27 172915" src="https://github.com/user-attachments/assets/79cc19fe-4925-4943-bcf0-fd74ffb888bd" />
+<img width="400" height="775" alt="Screenshot 2026-03-27 172934" src="https://github.com/user-attachments/assets/a7f54f00-d5fb-42cc-8db7-52a5ff00844e" />
 
 ## 📖 What I learned
 - Game object lifecycle
